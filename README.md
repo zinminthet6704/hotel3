@@ -1,2 +1,2 @@
-# hotel3
-Hotel template try(3rd time)
+# hotel2
+hotel pages (second time try)

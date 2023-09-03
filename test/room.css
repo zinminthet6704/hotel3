@@ -1,0 +1,85 @@
+:root{
+
+    /* syntax
+    classname+propertyCaptial */
+
+    --roomContainerMaxWidth: 362.292px;
+    --roomContainerMaxHeight: 589.833px;
+    --imgWidth: 300.625px;
+    --imgHeight: 173.833; 
+    --imgPadding: 30px;
+    --roomCommerceWidth: 300.625px;
+    --roomCommerceHeight: 293.33px;
+    --roomCommercePadding: 30px;
+    --checkMaxWidth: 333.292px;
+    --checkMaxHeight: 400px;
+
+    --roomOverallContainerMaxWidth: 724.584px;
+}
+
+.bookingRoomContainer{
+    width: 1180px;
+    height: auto;
+    max-width: 1180px;
+    /* max-height: 702px; */
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.roomContainer{
+    max-width: 362.292px;
+    max-height: 589.833px;
+
+    width: var(--roomContainerMaxWidth);
+    height: var(--roomContainerMaxHeight);
+
+    border: 1px solid green;
+}
+
+.roomOverallContainer{
+    width: 800px;
+    height: auto;
+}
+
+img{
+    width: var(--imgWidth);
+    height: var(--imgHeight);
+    padding: var(--imgPadding);
+}
+
+.roomCommerce{
+    max-width: var(--roomCommerceWidth);
+    max-height: var(--roomCommerceHeight);
+    border: 1px solid green;
+    padding: var(--roomCommercePadding);
+
+}
+
+
+
+
+
+.roomOverallContainer{
+    width: 900px;
+    max-width: 800px;
+    height: auto;
+    /* grid-area: rooms; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* grid-gap: 1em; */
+    border: 1px solid gold;
+}
+
+
+
+div.check{
+    max-width: var(--checkMaxWidth);
+    max-height: var(--checkMaxHeight);
+    
+    width: var(--checkMaxWidth);
+    height: var(--checkMaxHeight);
+
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}

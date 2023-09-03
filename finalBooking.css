@@ -1,0 +1,185 @@
+:root{  
+    --allContainer: 771.583px;
+
+}
+
+
+
+.infoContainer{
+    width: 700px;
+    height:500px;
+    border: 1px solid green;
+    height: auto;  
+    margin-right: 50px;
+}
+
+
+label{
+    box-sizing: border-box;
+    color: rgb(92,92,92);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    overflow-wrap: break-word;
+
+}
+
+span.checked{
+    background-color: #6b6978;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    overflow-wrap: break-word;
+}
+
+span.bolds{
+    font-weight: 400;
+    font-size: 14px;
+    color: #444;
+}
+
+
+
+.finalHeading{
+    margin-top: 0px;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 27px;
+    font-family: Roboto, sans-serif;
+    overflow-wrap: break-word;
+    background-color: rgb(107, 105, 120);
+    width: 100%;
+    /* width: 800.583px; */
+}
+
+
+table.info , table.info input, table.info label,table.info textarea{
+    width: 95%;
+}
+table.info input[type="text"], textarea{
+    padding: 10px 0; 
+}
+
+
+table.info input[type="checkbox"]{
+    display: inline;
+    border: 1px solid green;
+}
+
+table{
+    margin: 0 auto;     
+}
+
+/* *{
+    border: 1px solid green;
+} */
+
+a.final{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/* grid stuff*/
+
+.allContainer{
+    width: 1065px;
+    height: auto;
+    display: grid ;
+    grid-template-columns: 362.28px auto;
+    grid-template-rows: auto auto ;
+    grid-template-areas: "finalReservation infoContainer";
+    border: 1px solid red;        
+    /* margin-top: 40px;
+    margin-left:20%;
+    border: none; */
+    margin: 0 auto;
+
+
+}
+
+
+
+.pageHeading{
+    border: 1px solid green; 
+    height: 370px;
+}
+
+.pageHeadingImg{
+    display: block;
+    width: 100%;
+    height: 370px;
+}
+
+
+h2{
+    box-sizing: border-box;
+    color: rgb(28, 28, 28);
+    cursor: pointer;
+    display: block;
+    font-family: "Gilda Display", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 30px;
+    overflow-wrap: break-word;
+}
+
+.finalReseveration{
+    grid-area: finalReservation;
+}
+
+.infoContainer{
+    grid-area: infoContainer;
+    /* margin-left: -21px; */
+}
+
+/* grid stuff ended*/
+
+
+.roomContainer{
+    max-width: 362.292px;
+    max-height: 700px;
+
+    width: var(--roomContainerMaxWidth);
+    /* height: var(--roomContainer MaxHeight); */
+    height: 700px;
+
+    border: 1px solid green;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+.roomCommerce{
+    max-width: var(--roomCommerceWidth);
+    max-height: var(--roomCommerceHeight);
+    /* border: 1px solid green; */
+    padding: var(--roomCommercePadding);
+    margin-top: -5px; 
+}
+
+
+.iconImg{
+    width: 24px;
+    padding: 0px;
+    height: auto;
+    border-bottom-color: rgb(92,92,92);
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-width: 1px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
